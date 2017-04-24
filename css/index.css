@@ -1,0 +1,151 @@
+body{
+    background: #FFFFFF;
+}
+.goTop{
+    width: 36px;
+    height: 65px;
+    background:url(../images/Top.jpg);
+    display:none;
+    position:fixed;
+    right:20px;
+    bottom:20px;
+}
+.logo{
+    width: 900px;
+    height: 100px;
+    margin:0 auto;
+    text-align:center;
+}
+.nav{
+    width: 900px;
+    height: 50px;
+    position:absolute;
+    top:100px;
+    left:50%;
+   margin-left:-450px;
+}
+.nav h1{
+    width: 210px;
+    height: 50px;
+    background:url(../images/logo.png);
+    text-indent:-9999px;
+    float:left;
+    opacity: 0;
+}
+.nav form{
+    width: 650px;
+    height: 50px;
+    float:left;
+    margin-left:20px;
+}
+.nav form .text{
+    width: 500px;
+    height: 48px;
+    padding-left:15px;
+    border:1px solid #ccc;
+    font-size:30px;
+}
+.nav form .go{
+    font-size:30px;
+    width: 120px;
+    height: 48px;
+    line-height:50px;
+    background: #f40;
+    color:white;
+}
+.centen{
+    width: 900px;
+    height: 2000px;
+    margin:0 auto;
+    margin-top:80px;
+    border:1px solid #ccc;
+}
+.centen_T{
+    border:1px solid #ccc;
+    overflow:hidden;
+}
+.centen_T li{
+    width: 200px;
+    height: 50px;
+    font-size:25px;
+    line-height:50px;
+    text-align:center;
+    color:deepskyblue;
+    float:left;
+}
+.centen_T .curr{
+    background: #666;
+}
+.body li{
+    height: 50px;
+    font-size:20px;
+    line-height:50px;
+    padding:0 10px;
+    border-bottom:1px solid #ccc;
+}
+.centen_C span:nth-of-type(n+2),.centen_B span:nth-of-type(n+2){
+    color:mediumspringgreen;
+    margin-left:20px;
+    float:right;
+}
+.centen_B{
+    display:none;
+}
+/*设置蒙板*/
+.big{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.4);
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+}
+.big .small{
+    width: 320px;
+    height: 270px;
+    padding:10px;
+    margin:150px auto 0;
+    background:white;
+}
+.big .small .small_T{
+    height: 50px;
+    line-height:50px;
+    text-align:center;
+}
+.big .small .small_T span:first-child{
+     float:left;
+ }
+.big .small .small_T span:last-child{
+    width: 30px;
+    float:right;
+}
+.big .small textarea{
+    /*禁止拉伸*/
+    width: 298px;
+    height: 100px;
+    border:1px solid orangered;
+    resize:none;
+    background: #cccccc;
+}
+.big .small input{
+    width: 300px;
+    height: 50px;
+    background: #cccccc;
+}
+.big .small .renew{
+    width: 80px;
+    height: 30px;
+    line-height:30px;
+    background: #f40;
+    text-align:center;
+    float:right;
+    margin-top:10px;
+}
+
+
+
+
+
+
+
